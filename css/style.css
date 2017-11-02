@@ -1,0 +1,59 @@
+.roomListDashboard, .roomContents, .sendMessageForm, .inviteBot, #userNameToInvite, .leaveRoom, .inviteUser {
+    display: none;
+}
+
+.roomList {
+    background-color: #909090;
+}
+
+.messageWrapper {
+    background-color: #EEEEEE;
+    height: 400px;
+    overflow: scroll;
+}
+
+.membersWrapper {
+    background-color: #EEEEEE;
+    height: 200px;
+    width: 50%;
+    overflow: scroll;
+}
+
+.textEntry {
+    width: 100%
+}
+
+p {
+    font-family: monospace;
+}
+
+table
+{
+    border-spacing:5px;
+}
+
+th,td
+{
+    padding:5px;
+}
+
+.roomList tr:not(:first-child):hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.minimized {
+    display: none;
+}
+
+.clientSizer {
+    width: 270px;
+}
+
+.userDiv {
+    background-color: rgb(153, 200, 238);
+}
+
+.msgDiv {
+    background-color: rgb(123, 155, 192);
+}
